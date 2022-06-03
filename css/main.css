@@ -31,14 +31,15 @@ body {
     background-color: #1d252c;
     padding: 2rem;
     border-radius: 2rem;
-    width: 28.6%;
+    width: min(87%, 400px);
+     
 }
 
 .wrap2 {
     background-color: #1d252c;
     padding: 2.5rem 2.1rem 3rem 2.1rem;
     border-radius: 2rem;
-    width: 28.6%;
+    width: min(87%, 400px);
 }
 
 .hide {
@@ -171,7 +172,7 @@ a {
     background-color: hsl(217, 12%, 63%);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
 
     .wrap {
         width: 87%;
@@ -241,58 +242,5 @@ a {
     .subtext2 {
         font-size: 14px;
         line-height: 1.42rem;
-    }
-
-
-
-}
-
-@media only screen and (min-width: 1880px) and (max-width: 1920px) {
-    .wrap {
-        width: 20%;
-    }
-
-    .wrap2 {
-        width: 20%;
-    }
-}
-
-@media only screen and (min-width: 1650px) and (max-width: 1880px) {
-    .wrap {
-        width: 25%;
-    }
-
-    .wrap2 {
-        width: 25%;
-    }
-}
-
-@media only screen and (min-width: 1650px) and (max-width: 1880px) {
-    .wrap {
-        width: 25%;
-    }
-
-    .wrap2 {
-        width: 25%;
-    }
-}
-
-@media only screen and (min-width: 1001px) and (max-width: 1250px) {
-    .wrap {
-        width: 35%;
-    }
-
-    .wrap2 {
-        width: 35%;
-    }
-}
-
-@media only screen and (min-width: 650px) and (max-width: 1000px) {
-    .wrap {
-        width: 50%;
-    }
-
-    .wrap2 {
-        width: 50%;
     }
 }
