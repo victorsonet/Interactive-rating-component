@@ -31,14 +31,14 @@ body {
     background-color: #1d252c;
     padding: 2rem;
     border-radius: 2rem;
-    width: 21.5%;
+    width: 28.6%;
 }
 
 .wrap2 {
     background-color: #1d252c;
     padding: 2.5rem 2.1rem 3rem 2.1rem;
     border-radius: 2rem;
-    width: 21.5%;
+    width: 28.6%;
 }
 
 .hide {
@@ -172,10 +172,6 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
-
-    body {
-        
-    }
 
     .wrap {
         width: 87%;
