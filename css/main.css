@@ -171,7 +171,7 @@ a {
     background-color: hsl(217, 12%, 63%);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
 
     .wrap {
         width: 87%;
@@ -245,4 +245,44 @@ a {
 
 
 
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 1880px) {
+    .wrap {
+        width: 25%;
+    }
+
+    .wrap2 {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 1880px) {
+    .wrap {
+        width: 25%;
+    }
+
+    .wrap2 {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1250px) {
+    .wrap {
+        width: 35%;
+    }
+
+    .wrap2 {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
+    .wrap {
+        width: 50%;
+    }
+
+    .wrap2 {
+        width: 50%;
+    }
 }
