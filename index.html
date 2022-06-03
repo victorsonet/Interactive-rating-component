@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <header class="header">
+            <img src="./images/icon-star.svg" alt="">
+        </header>
+        <div class="content">
+            <div class="text">
+                <h1 class="title">
+                    How did we do?
+                </h1>
+                <p class="subtext">
+                    Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+                </p>
+            </div>
+            <div class="rating">
+                <ul class="rating-list">
+                    <li class="nmbr-box" id="one" onclick="clickone()">1</li>
+                    <li class="nmbr-box" id="two" onclick="clicktwo()">2</li>
+                    <li class="nmbr-box active" id="three" onclick="clickthree()">3</li>
+                    <li class="nmbr-box" id="four" onclick="clickfour()">4</li>
+                    <li class="nmbr-box" id="five" onclick="clickfive()">5</li>
+                  </ul>
+            </div>
+            <div class="submit">
+                <p class="btn" onclick="deleteClass(), addClass()">SUBMIT</p>
+            </div>
+        </div>
+    </div>
+    <div class="wrap2 hide" id="wrap2">
+        <header class="header2">
+            <img src="./images/illustration-thank-you.svg" alt="">
+        </header>
+        <div class="content2">
+            <div class="message">
+                <p id="message">You selected out of 5</p>
+            </div>
+            <div class="title2">
+                <h1>Thank you!</h1>
+            </div>
+            <div class="subtext2">
+                <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
